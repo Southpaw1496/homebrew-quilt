@@ -3,7 +3,7 @@ class QuiltNativeInstaller < Formula
   homepage "https://quiltmc.org"
   url "https://github.com/QuiltMC/quilt-native-installer/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "42d80580dc11e3a883b06633450f8121de704cb0ba24ac56d067f898473eddaa"
-  license "apache-2.0"
+  license "Apache-2.0"
 
   depends_on "rust" => :build
   depends_on "openssl@1.1"
